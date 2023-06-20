@@ -187,8 +187,8 @@
 #endif
 
 #ifdef FLYCOLOR_F051
-#define FILE_NAME				"FLYCOLOR_F051"
-#define FIRMWARE_NAME           "Flycolor Gen"
+#define FILE_NAME				"FLYlikeEarth_F051"
+#define FIRMWARE_NAME           "LikeEarth_70a"
 #define DEAD_TIME               45
 #define HARDWARE_GROUP_F0_A
 //#define USE_SERIAL_TELEMETRY
