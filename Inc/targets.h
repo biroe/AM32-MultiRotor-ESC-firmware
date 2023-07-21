@@ -189,7 +189,7 @@
 
 #ifdef FLYCOLOR_F051
 #define FILE_NAME				"FLYlikeEarth_F051"
-#define FIRMWARE_NAME           "LikeEarth_70ahore2"
+#define FIRMWARE_NAME           "LikeEarth_70a"
 #define DEAD_TIME               45
 #define HARDWARE_GROUP_F0_A
 //#define USE_SERIAL_TELEMETRY
@@ -215,7 +215,7 @@
 
 #ifdef BLPWR_F051
 #define FILE_NAME				"BLPWR_F051"
-#define FIRMWARE_NAME           "BlPwr-ESC"
+#define FIRMWARE_NAME           "LikeEarth_70aBL"
 #define DEAD_TIME               20
 #define HARDWARE_GROUP_F0_A
 #define MILLIVOLT_PER_AMP       20
@@ -251,7 +251,7 @@
 
 #ifdef  RHINO80A_F051
 #define FILE_NAME				"LikeEarth80A_F051"
-#define FIRMWARE_NAME           "LikeEarth80A_F0 "
+#define FIRMWARE_NAME           "LikeEarth_80A"
 #define DEAD_TIME               20
 #define MILLIVOLT_PER_AMP       34
 #define PA6_VOLTAGE
