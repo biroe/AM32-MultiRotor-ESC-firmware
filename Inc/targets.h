@@ -230,7 +230,7 @@
 
 #ifdef FLYCOLOR_F051
 #define FILE_NAME				"FLYlikeEarth_F051"
-#define FIRMWARE_NAME           "LikeEarth_70a"
+#define FIRMWARE_NAME           "LikeEarth_35a"
 #define DEAD_TIME               45
 #define HARDWARE_GROUP_F0_A
 //#define USE_SERIAL_TELEMETRY
@@ -256,7 +256,7 @@
 
 #ifdef BLPWR_F051
 #define FILE_NAME				"BLPWR_F051"
-#define FIRMWARE_NAME           "LikeEarth_70aBLS"
+#define FIRMWARE_NAME           "LikeEarth_BLS"
 #define DEAD_TIME               20
 #define HARDWARE_GROUP_F0_A
 #define MILLIVOLT_PER_AMP       20
@@ -301,11 +301,31 @@
 #define USE_SERIAL_TELEMETRY
 #define SLOW_RAMP_DOWN
 #endif
+
+#ifdef LikeEarth_80
+#define FILE_NAME				"LikeEarth_80A"
+#define FIRMWARE_NAME           "LikeEarth_80Aesc"
+#define DEAD_TIME               20
+#define MILLIVOLT_PER_AMP       34
+#define PA6_VOLTAGE
+#define HARDWARE_GROUP_F0_B
+#define USE_SERIAL_TELEMETRY
+#define SLOW_RAMP_DOWN
+#endif
+
+#ifdef LikeEarth_70
+#define FILE_NAME				"LikeEarth_70A"
+#define FIRMWARE_NAME           "LikeEarth_70Aesc"
+#define DEAD_TIME               45
+#define HARDWARE_GROUP_F0_A
+//#define USE_SERIAL_TELEMETRY
+#define PA6_VOLTAGE
+#endif
 /*******************************   G071 Targets *********************************/
 
 #ifdef  GEN_64K_G071
 #define FILE_NAME				"GEN_64K_G071"
-#define FIRMWARE_NAME  			 "G071 64kESC "
+#define FIRMWARE_NAME  			 "LikeEarth_64esc "
 #define DEAD_TIME               60
 #define MILLIVOLT_PER_AMP       67
 #define CURRENT_OFFSET          0
@@ -467,7 +487,6 @@
 #define HARDWARE_GROUP_G0_D
 #define SIXTY_FOUR_KB_MEMORY
 #endif
-
 /***********************************F031 Targets**********************************/
 
 #ifdef 	   REF_F031
