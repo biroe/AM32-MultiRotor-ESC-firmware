@@ -487,6 +487,18 @@
 #define HARDWARE_GROUP_G0_D
 #define SIXTY_FOUR_KB_MEMORY
 #endif
+
+#ifdef  LikeEarth_G071
+#define FILE_NAME				"LikeEarth_G071esc"
+#define FIRMWARE_NAME  			 "LikeEarth_64 "
+#define DEAD_TIME               60
+#define MILLIVOLT_PER_AMP       67
+#define CURRENT_OFFSET          0
+#define TARGET_STALL_PROTECTION_INTERVAL 12000
+#define HARDWARE_GROUP_G0_A
+#define USE_SERIAL_TELEMETRY
+#define SIXTY_FOUR_KB_MEMORY
+#endif
 /***********************************F031 Targets**********************************/
 
 #ifdef 	   REF_F031
