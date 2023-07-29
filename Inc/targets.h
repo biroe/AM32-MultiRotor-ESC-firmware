@@ -301,26 +301,6 @@
 #define USE_SERIAL_TELEMETRY
 #define SLOW_RAMP_DOWN
 #endif
-
-#ifdef LikeEarth_80
-#define FILE_NAME				"LikeEarth_80A"
-#define FIRMWARE_NAME           "LikeEarth_80Aesc"
-#define DEAD_TIME               20
-#define MILLIVOLT_PER_AMP       34
-#define PA6_VOLTAGE
-#define HARDWARE_GROUP_F0_B
-#define USE_SERIAL_TELEMETRY
-#define SLOW_RAMP_DOWN
-#endif
-
-#ifdef LikeEarth_70
-#define FILE_NAME				"LikeEarth_70A"
-#define FIRMWARE_NAME           "LikeEarth_70Aesc"
-#define DEAD_TIME               45
-#define HARDWARE_GROUP_F0_A
-//#define USE_SERIAL_TELEMETRY
-#define PA6_VOLTAGE
-#endif
 /*******************************   G071 Targets *********************************/
 
 #ifdef  GEN_64K_G071
