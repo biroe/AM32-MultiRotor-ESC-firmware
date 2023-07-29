@@ -256,7 +256,7 @@
 
 #ifdef BLPWR_F051
 #define FILE_NAME				"BLPWR_F051"
-#define FIRMWARE_NAME           "LikeEarth_BLS"
+#define FIRMWARE_NAME           "LikeEarth_BLS051"
 #define DEAD_TIME               20
 #define HARDWARE_GROUP_F0_A
 #define MILLIVOLT_PER_AMP       20
