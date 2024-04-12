@@ -292,8 +292,8 @@
 #endif
 
 #ifdef  RHINO80A_F051
-#define FILE_NAME				"LikeEarth80A_F051"
-#define FIRMWARE_NAME           "LikeEarth_80A"
+#define FILE_NAME				"gearbro80A_F051"
+#define FIRMWARE_NAME           "GearBro_80A"
 #define DEAD_TIME               20
 #define MILLIVOLT_PER_AMP       34
 #define PA6_VOLTAGE
